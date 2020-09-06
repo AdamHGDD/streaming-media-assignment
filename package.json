@@ -1,0 +1,35 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.18.3",
+    "npm": "6.14.6"
+  },
+  "description": "Adam's version of the streaming assignment",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.16.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamHGDD/streaming-media-assignment.git"
+  },
+  "author": "Adam Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamHGDD/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/AdamHGDD/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
